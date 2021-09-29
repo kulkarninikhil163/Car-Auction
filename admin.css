@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color:wheat;
+}
+body h2{
+    color:wheat;
+}
+body .image{
+    margin-left: 740px;
+    max-width: 100%;
+}
+.container {
+    width: 100%;
+    border: 3px solid white;
+    background-color:black;
+    margin: 33px auto;
+    color: white;
+}
+
+.item {
+    border: 3px solid grey;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background:rgb(58, 57, 57);
+    width:450px;
+}
+
+#details {
+    float: right;
+    width: 75%;
+}
+
+#details h3{
+    text-align: center;
+    font-size: 28px;
+}
+
+form{
+    padding: 10px;
+    text-align: center;
+}
+
+.name{
+    margin-left: 100px;
+    margin-top: 30px;
+width: 75px;
+color:rgb(10, 10, 10);
+font-size: 40px;
+font-weight: 70px;
+text-align: center;
+}
+.firstname{
+    position: relative;
+    right: 120px;
+    top:-50px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.lastname{
+    position: relative;
+    left: 150px;
+    top:-95px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:black;
+}
+.firstlabel{
+    position: relative;
+    color: black;
+    text-transform:capitalize;
+    font-size: 14px;
+    right:80px;
+    top:-45px;
+}
+.lastlabel{
+    position: relative;
+    color: black;
+    text-transform:capitalize;
+    font-size: 14px;
+    left:100px;
+    top:-76px;
+}
+.age{
+    position: relative;
+    right: 170px;
+    top:-50px;
+    line-height: 40px;
+    width:125px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.number{
+    position: relative;
+    right: 10px;
+    top:-50px;
+    line-height: 40px;
+    width:150px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.edit, .delete{
+    position: relative;
+    left: 250px;
+    line-height: 40px;
+    width:150px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    background-color: rgb(57, 57, 247);
+}
+.edit1, .delete1{
+   position: relative;
+    left: 1180px;
+    line-height: 40px;
+    width:130px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    background-color: rgb(57, 57, 247);
+}
+.comment{
+    line-height: 40px;
+    width:450px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    background-color: rgb(57, 57, 247);
+    
+}
+.NOTIFICATIONS{
+    line-height: 40px;
+    width:150px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    background-color: rgb(57, 57, 247);
+}
+#not {
+    float: left;
+    width: 20%;
+}
+
+#not h3{
+    text-align: center;
+    font-size: 28px;
+}
+
+#not p{
+    color: black;
+}
+#comment{
+    float: left;
+    
+   
+    width: 105%;
+}
+#auctioneer {
+    float: left;
+    clear: both;
+    clear: left;
+    width: 100%;
+}
+
+#auctioneer h3{
+    text-align: center;
+    font-size: 28px;
+}
+
+table, th, td { 
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    color: black;
+} 
+
+th, td { 
+    padding: 20px; 
+} 
+
+th { 
+    text-align: left; 
+}
+
+p, h3 {
+    /* text-align: right;
+    text-align: left;
+    text-align: center; */
+    text-align: justify;
+}
+
+.image{
+    margin-left: 555PX;
+    filter: invert(100%);
+}
+
+h1{
+    margin: 23px auto;
+    width: 455px;
+    text-align: center;
+}
+
+
+
+#comment h3{
+    text-align: center;
+    font-size: 28px;
+}
+#auctioneer table,tr,th,td{
+    border:5px solid red;
+    background-color: #ffc;
+    text-align:center;
+    margin-left:680px;
+    margin-top:50px;
+    
+}

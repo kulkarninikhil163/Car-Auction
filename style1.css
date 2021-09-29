@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    width:100%;
+    height: 100vh;
+}
+section .leftbox{
+    width:50%;
+    height:100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+background-image: url("https://i2.wp.com/www.ecommerce-nation.com/wp-content/uploads/2017/01/How-to-Pull-Off-your-Push-Notification-Timing-for-E-Commerce-6.jpg?fit=1480%2C1109&ssl=1");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+section .events
+{
+    position:relative;
+    width:50%;
+    height:100%;
+    background-image: linear-gradient(110.6deg, rgb(179, 157, 219) 7%, rgb(150, 159, 222) 47.7%, rgb(24, 255, 255) 100.6%);;
+    float:right;
+    padding: 20px 15px ;
+    box-sizing: border-box;
+
+}
+section .events ul{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    margin:0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+section .events ul li{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    margin:15px 0;
+}
+section .events ul li .time{
+    position: relative
+    ;
+    padding: 20px;
+    background-color: #080808f1;
+    box-sizing: border-box;
+    height:50%;
+    float: left;
+width:30%;
+text-align: center;
+transition: .5s;
+}
+section .events ul li:hover .time{
+    background: #f5900c;
+}
+section .events ul li .time h2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+section .events ul li .time h3{
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    top:123px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: #fff;
+    font-size: 27px;
+    line-height: 30px;
+}
+section .events ul li .time h2 span{
+    font-size: 30px;
+}
+section .events ul li .time h3 span{
+    font-size: 18px;
+}
+section .events ul li .details{
+    padding: 20px;
+    background:#fff;
+    box-sizing: border-box;
+    width: 70%;
+height: 100%;
+float: left;
+}
+section .events ul li .details h3{
+    position: relative;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;   
+}
+section .events ul li .details p{
+    position: relative;
+    margin:10px 0 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+section .events ul li .details h3:hover{
+    background: #59c462;
+    color:#fff;
+   
+
+}
+section .leftbox .content .cal{
+    width:150px;
+  height: 50px;
+  background: linear-gradient(to right ,#ff106f,#ffad02);
+  border-radius: 30px;
+  text-align: center;
+}
+section .leftbox .content .cal{
+    width:150px;
+  height: 50px;
+  background: linear-gradient(to right ,#ff106f,#ffad02);
+  border-radius: 30px;
+  margin-left:400px;
+margin-top:70px;
+}
+section .leftbox .content .cal1{
+    width:150px;
+    position: relative;
+    margin-top: 50px;
+  height: 50px;
+  background: linear-gradient(to right ,#ff106f,#ffad02);
+  border-radius: 30px;
+  margin-left:470px;
+margin-top:180px;
+}
+section .leftbox .content .cal2{
+    width:150px;
+    position: relative;
+    margin-top: 70px;
+  height: 50px;
+  background: linear-gradient(to right ,#ff106f,#ffad02);
+  border-radius: 30px;
+  margin-left:470px;
+margin-top:180px;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 25%;
+    bottom: 80px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 3s;
+    background-color: darkblue;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 700px; left:150px; opacity: 0;} 
+    to {bottom: 480px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom:700px; left:150px; opacity: 0;}
+    to {bottom: 480px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 480px;left:10px; opacity: 1;} 
+    to {bottom: 700px; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 480px; left:10px;opacity: 1;}
+    to {bottom: 700px; opacity: 0;}
+  }
+  section .down{
+      display: flex;
+
+float: left;
+
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;  }
+section .down .timer{
+    height: 100%;
+    width:100px;
+    float: left;
+    border: 2px solid;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;}
+.count .timer .numb{
+    font-size:25px
+;
+font-weight: 500px;}
+.count .timer .text{
+    font-size: 15px;
+}
+.count  .clone{
+    font-size: 45px;
+}
+section .leftbox .content .notify{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height:70px;
+    margin-left: 30px;
+float:left;
+display: block;
+opacity: 1;
+transition: .3s ease;
+  backface-visibility: hidden;}
+ section .leftbox .content  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.leftbox .content:hover .notify {
+    opacity: 0.3;
+  }
+.leftbox .content:hover .middle{
+    opacity: 1;
+}
+.leftbox .content .plain {
+    background-color: #d46430d7;
+    color: white;
+    font-size: 26px;
+    height: 280px;
+margin-left:10px;  
+
+    padding: 140px 16px;
+  }
+  .leftbox .content .home{
+      position: relative;
+      margin-top: 10px;
+      margin-left: 50px;
+      width:70px;
+      height: 50px;
+      background: linear-gradient(to right ,#ff106f,#ffad02);
+      border-radius: 30px;
+      text-align: center;
+  }
+  .navbar {
+  
+    margin-left: 0%;
+    background-color:#08233b;
+    overflow: auto;
+    height: 71px;
+    margin-left: 0px;
+    margin-top: -1%;
+    width:100%;
+    height: auto;
+  }
+  
+  .navbar a {
+    float: right;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #3d3c38;
+  }
+  
+  @media screen and (max-width: 200px) {
+    .navbar a {
+      float: none;
+      display: block;
+      padding-top: 15px;
+    }
+  }
